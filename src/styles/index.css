@@ -1,0 +1,138 @@
+
+
+.nav-btn:hover {
+  color:rgb(14, 214, 154);
+  transition-duration: 0.9s;
+}
+
+.introduction {
+  display: flex;
+}
+
+.heading {
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+  font-family: Hack, sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, rgb(44, 165, 173), #fff, rgb(4, 80, 94));
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 5s linear infinite;
+  position: relative;
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+
+.btn {
+  --glow-color: rgb(49, 141, 218);
+  --glow-spread-color: rgba(36, 77, 151, 0.781);
+  --enhanced-glow-color: rgb(49, 18, 133);
+  --btn-color: rgb(48, 176, 250);
+  border: .25em solid var(--glow-color);
+  padding: 1em 3em;
+  color: var(--glow-color);
+  font-size: 15px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+  box-shadow: 0 0 1em .25em var(--glow-color),
+         0 0 4em 1em var(--glow-spread-color),
+         inset 0 0 .75em .25em var(--glow-color);
+  text-shadow: 0 0 .5em var(--glow-color);
+  position: relative;
+  transition: all 0.3s;
+ }
+ 
+ .btn::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--glow-spread-color);
+  filter: blur(2em);
+  opacity: .7;
+  transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+ }
+ 
+ .btn:hover {
+  color: var(--btn-color);
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em .25em var(--glow-color),
+         0 0 4em 2em var(--glow-spread-color),
+         inset 0 0 .75em .25em var(--glow-color);
+ }
+ 
+ .btn:active {
+  box-shadow: 0 0 0.6em .25em var(--glow-color),
+         0 0 2.5em 2em var(--glow-spread-color),
+         inset 0 0 .5em .25em var(--glow-color);
+ }
+
+ :root {
+  --shadow-color: #aa2551;
+  --shadow-color-light: white;
+}
+
+.projects {
+  margin: auto;
+  padding: auto;
+  display: grid;
+  place-content: center;
+  font-size: 65px;
+  text-transform: uppercase;
+  font-family: "Archivo Black", "Archivo", sans-serif;
+  font-weight: normal;
+  height: auto;
+  text-align: center;
+  
+}
+
+.projects {
+  color: rgb(99, 230, 201);
+  
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border: 1px solid #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background: #eeeeee;
+  
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: linear-gradient(90deg, rgb(182, 175, 178) 0%, rgb(13, 13, 14) 100%);
+}
+
+.invitation {
+  display: flex;
+  justify-content: center;
+  color: rgb(240, 159, 159);
+  
+}
+
+.footer {
+  width: 100%;
+  overflow-x: hidden;
+  display: auto;
+}
