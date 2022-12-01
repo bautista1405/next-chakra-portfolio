@@ -33,7 +33,7 @@
     "gray-matter": "^4.0.3",
     "hamburger-react": "^2.4.1",
     "i18next": "^21.2.4",
-    "i18next-browser-languagedetector": "^6.1.2",
+    "i18next-browser-languagedetector": "^7.0.1",
     "i18next-xhr-backend": "^3.2.2",
     "next": "11.1.2",
     "next-mdx-remote": "^2.1.4",
