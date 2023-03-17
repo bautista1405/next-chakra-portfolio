@@ -111,7 +111,7 @@ const Home = () => {
             <Text py="4" marginBottom={10} color="#b6b5b5"> 
               I'm a {" "}
               <Text as="span" fontWeight="600">
-                front-end web developer
+                full-stack web developer
               </Text>{" "}
             from Argentina, with {" "} 
               <Icon as={BiHeart}></Icon> {" "}
@@ -132,7 +132,7 @@ const Home = () => {
           marginTop={10}
           pl={10}
           pr={15}
-          w={[1000, 900, 1280]}
+          w={[1000, 900, 1200]}
         >
           <Stack direction="row" align="center" > 
             <Text>🚧</Text>
@@ -148,7 +148,7 @@ const Home = () => {
         
           {projects.map((project, id) => (
             <Box
-                h={'420px'}
+                h={'500px'}
                 w={'300px'}
                 bg='linear-gradient(90deg, rgb(44, 165, 173), rgb(177, 45, 74))'
                 boxShadow={'2xl'}

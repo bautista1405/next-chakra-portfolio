@@ -39,7 +39,7 @@ export default function Footer() {
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}
         >
-          <Text color= "white">© 2022 Bautista Aramendia Pradal. All rights reserved.</Text>
+          <Text color= "white">© 2023 Bautista Aramendia Pradal. All rights reserved.</Text>
           <Stack>
           <Box py="2">
           {socialAccounts.map((item, index) => (
