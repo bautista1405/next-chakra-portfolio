@@ -58,7 +58,7 @@ const Home = () => {
           flexDir="column"
           textAlign="center"
           py="4"
-          w={[1000, 900, 1300]}
+          w={{base: 1000, sm: 900, md: 1400, lg: 1300}}
           className="introduction"
         >
           <Stack direction="row">
@@ -120,7 +120,7 @@ const Home = () => {
             
           </Box>
         </Box>
-        <Divider orientation="horizontal" borderWidth="2px" w={[1000, 900, 1300]} />
+        <Divider orientation="horizontal" borderWidth="2px" w={{base: 980, sm: 900, md: 1400, lg: 1300}} />
         <Box
           as="section"
           d="flex"
@@ -132,12 +132,12 @@ const Home = () => {
           marginTop={10}
           pl={10}
           pr={15}
-          w={[1000, 900, 1200]}
+          w={{base: 1000, sm: 900, md: 1350, lg: 1300}}
         >
           <Stack direction="row" align="center" > 
             <Text>🚧</Text>
             <Text fontSize={40} marginBottom={6} fontWeight="600" className="projects"> 
-                Some of my projects
+                Some of my work
             </Text>
             <Text>🚧</Text>
           </Stack>

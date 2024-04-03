@@ -59,7 +59,7 @@ const BlogPost = ({ mdxSource, frontMatter }) => {
           py="4"
           fontSize="16px"
           color="#b6b5b5"
-          w={[900, 900, 1300]}
+          w={{sm: 900, md: 1300}}
         >
           <Box as="header" textAlign="center">
             <Heading as="h1" py="4" size="2xl" >
@@ -95,7 +95,7 @@ const BlogPost = ({ mdxSource, frontMatter }) => {
             </Flex>
           </Box>
 
-          <Box as="article">
+          <Box as="article" mt={20}>
             {content}
           </Box>
         </Box>

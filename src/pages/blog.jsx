@@ -73,7 +73,7 @@ const Blog = ({ posts }) => {
         fontSize="16px"
         px={{ md: "10", lg: "20", xl: "30" }}
         py="4"
-        w={[800, 900, 1200]}
+        w={{base: 1000, sm: 900, md: 1400, lg: 1300}}
         color="#b6b5b5"
       >
         <Flex justify="center" marginTop="60px">

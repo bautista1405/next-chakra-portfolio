@@ -35,7 +35,7 @@ const About = () => {
               flexDir="column"
               textAlign="center"
               py="4"
-              w={[900, 900, 1200]}
+              w={{base: 1000, sm: 900, md: 1400, lg: 1300, xl: 1250}}
               h={[1200, 900, 500]}
            >
                <Box d="flex" alignItems="center" marginTop={10} h={[800]}>
@@ -54,7 +54,7 @@ const About = () => {
                   </Box> */}
                   <Text color="#b6b5b5">
                      <div>
-                        I'm Bautista Aramendía Pradal and I'm 24 y/o. Before I go on with my tech stack, I'd like to
+                        I'm Bautista Aramendía Pradal and I'm 25 y/o. Before I go on with my tech stack, I'd like to
                         tell you some other things about me 😁 
                      </div>
                      <br />
@@ -74,7 +74,7 @@ const About = () => {
                         Argentina.
                      </Text> {" "}
                      
-                     . My stack is {" "}
+                      My stack is {" "}
                      <Text as="span" color="teal.500">
                      Javascript-based:
                      </Text> React, Next.js and Node.js. 
@@ -85,6 +85,9 @@ const About = () => {
                         styles 🎨
                      </Text> {" "}
                      I am really fond of Chakra UI but I can work with Tailwind CSS, SASS.
+                     <br />
+                     <br />
+                     <Text>For DBs, I like to work with MongoDB, Supabase. And for managing infrastructure I like AWS.</Text>
                      <br />
                      <br />
                      As to my {" "}

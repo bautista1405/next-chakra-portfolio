@@ -20,7 +20,7 @@ export default function Footer() {
   return (
     <Box
       w={[1040, 900, 1525]}
-      h={[200, 200, 100]}
+      h={{base: 200, sm: 200, md: 100, lg: 100}}
       className="footer"
     >
       
@@ -39,7 +39,7 @@ export default function Footer() {
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}
         >
-          <Text color= "white">© 2023 Bautista Aramendia Pradal. All rights reserved.</Text>
+          <Text color= "white">© 2024 Bautista Aramendia Pradal. All rights reserved.</Text>
           <Stack>
           <Box py="2">
           {socialAccounts.map((item, index) => (
